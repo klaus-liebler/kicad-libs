@@ -1,0 +1,11 @@
+Mehrere Bibliotheken mit KLLI-Prefix, je eine für
+- U - Integrierte Schaltkreise
+- A - Module
+- X - Stecker/Buchsen
+- D - Dioden
+- S - Schalter, Drucktaster, RotaryEncoder
+- K - Relais, Sch
+- P - Displays
+
+
+Geben Sie ausgehend vom Pfad c:\dokumente\studieren\dv2\übungen\termin10 den relativen Pfad des Dokumentes c:\dokumente\studieren\dv2\vorlesungen\grundlagen\folie.pdf an [3]
