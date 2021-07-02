@@ -1,4 +1,4 @@
-(module Resistor_100W (layer F.Cu) (tedit 5F2D3E5C)
+(module Resistor_100W (layer F.Cu) (tedit 60C08FA9)
   (fp_text reference REF** (at -27.5 -3.5) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -21,8 +21,8 @@
   (fp_line (start 30 13.5) (end -30 13.5) (layer F.SilkS) (width 0.12))
   (fp_line (start 30 -7.5) (end 30 13.5) (layer F.SilkS) (width 0.12))
   (fp_line (start -30 -4.5) (end 30 -4.5) (layer F.SilkS) (width 0.12))
-  (pad "" np_thru_hole oval (at 22 10) (size 9.5 7.5) (drill oval 5.5 3.5) (layers *.Cu *.Mask))
-  (pad "" np_thru_hole oval (at -22 10) (size 9.5 7.5) (drill oval 5.5 3.5) (layers *.Cu *.Mask))
+  (pad "" thru_hole oval (at 22 10) (size 9.5 7.5) (drill oval 5.5 3.5) (layers *.Cu *.Mask))
+  (pad "" thru_hole oval (at -22 10) (size 9.5 7.5) (drill oval 5.5 3.5) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at -39.7 0) (size 3.6 3.6) (drill 1.6) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 39.7 0) (size 3.6 3.6) (drill 1.6) (layers *.Cu *.Mask))
   (model "${CUSTOM_LIBS}/smopla.3d/Resistor 100W.stp"
