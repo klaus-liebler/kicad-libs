@@ -10,13 +10,13 @@ FILE_DESCRIPTION(
 /* implementation_level */ '2;1');
 
 FILE_NAME(
-/* name */ '1.14 TFT IPS - 13P - Reverse Mount',
-/* time_stamp */ '2019-10-09T17:36:04-04:00',
-/* author */ ('John Loeffler'),
-/* organization */ ('Unknown'),
-/* preprocessor_version */ 'ST-DEVELOPER v16.7',
-/* originating_system */ 'DEX',
-/* authorisation */ $);
+	'1.14 TFT IPS - 13P - Reverse Mount',
+    '2011-12-27T19:16:07',
+    ( '' ),
+    ( '' ),
+    'SwSTEP 2.0',
+    'SolidWorks 2011',
+    '' );
 
 FILE_SCHEMA (('AUTOMOTIVE_DESIGN {1 0 10303 214 3 1 1}'));
 ENDSEC;
