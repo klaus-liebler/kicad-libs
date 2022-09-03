@@ -1,6 +1,6 @@
 (footprint "RELAY_ALDP105W" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 62E9118D)
+  (tedit 62EECB44)
   (attr through_hole)
   (fp_text reference "REF**" (at -7.41468 -4.66112) (layer "F.SilkS")
     (effects (font (size 0.8 0.8) (thickness 0.015)))
@@ -25,8 +25,8 @@
   (fp_line (start 10.25 3.6) (end -10.25 3.6) (layer "F.Fab") (width 0.127) (tstamp 587e063f-534f-4f89-a00e-61b9bd2e75fa))
   (fp_line (start 10.25 -3.6) (end 10.25 3.6) (layer "F.Fab") (width 0.127) (tstamp fdca20bf-4573-41c1-9d59-b3f75a0efa59))
   (fp_circle (center -9.9 3.26) (end -9.8 3.26) (layer "F.Fab") (width 0.2) (fill none) (tstamp faa75837-aa64-4734-ac8a-08ec02c05de1))
-  (pad "11" thru_hole oval (at 2.3 2.45) (size 2.2 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp e1130196-2f6b-4bb9-8774-e9d956ddf825))
-  (pad "14" thru_hole oval (at 9.3 2.45) (size 2.2 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 01ec2e5f-3684-4fd3-9beb-21514e637efc))
+  (pad "11" thru_hole oval (at 2.3 2.45) (size 1.8 2.4) (drill 1.1) (layers *.Cu *.Mask) (tstamp e1130196-2f6b-4bb9-8774-e9d956ddf825))
+  (pad "14" thru_hole oval (at 9.3 2.45) (size 1.8 2.4) (drill 1.1) (layers *.Cu *.Mask) (tstamp 01ec2e5f-3684-4fd3-9beb-21514e637efc))
   (pad "A1" thru_hole oval (at -9.2 2.45) (size 2.2 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 7dc65acd-4b62-430c-91ef-0c88ca8ea903))
   (pad "A2" thru_hole oval (at -9.2 -2.25) (size 2.2 1.8) (drill 1.1) (layers *.Cu *.Mask) (tstamp 2ca7bf2c-3398-4b6d-9c4c-f9d3fc9eccd6))
   (model "${CUSTOM_LIBS}/liebler_MECH.pretty/aldp1・・・.step"
