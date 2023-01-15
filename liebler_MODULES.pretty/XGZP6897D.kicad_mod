@@ -26,4 +26,9 @@
   (pad "6" smd roundrect (at 4.5 1.27) (size 1.6 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 31e6c9f5-82ae-4301-bfa0-506b67b64648))
   (pad "7" smd roundrect (at 4.5 -1.27) (size 1.6 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp bbdd17b9-bc6c-4b4d-bd85-f6803c7abafe))
   (pad "8" smd roundrect (at 4.5 -3.81) (size 1.6 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 42ff2c86-71a8-4179-993b-fec7e4947736))
+  (model "${CUSTOM_LIBS}/liebler_SEMICONDUCTORS.pretty/sop8.STEP"
+    (offset (xyz 0 0 3))
+    (scale (xyz 2 2 1.7))
+    (rotate (xyz -90 0 90))
+  )
 )
