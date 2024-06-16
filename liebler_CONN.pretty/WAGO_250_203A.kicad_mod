@@ -1,0 +1,123 @@
+(footprint "WAGO_250_203A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.75 -1.4 0)
+		(layer "F.SilkS")
+		(uuid "7a56badb-370c-457d-9e89-2d043b5bee9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "WAGO_250_203A"
+		(at 0.3 3.6 0)
+		(layer "F.Fab")
+		(uuid "dd84b235-8aaa-4180-874f-9c159a8eccba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4834b2f3-bd37-460e-a977-2f3499c5f7dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b81a3ed0-3984-4691-bc2b-bd903a29f904")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fa7252cc-c21e-46b9-9826-499c9d7dd52b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -6 -6.1)
+		(end 6 6.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4b338f85-d4bc-482e-8b54-7308ce9f269b")
+	)
+	(fp_rect
+		(start -6 6.1)
+		(end 6 -6.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "9509e2ef-acbc-49c3-b20d-6a34d5fbc4ed")
+	)
+	(pad "1" thru_hole roundrect
+		(at 4.25 -3.65)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "d9dbf033-a1c9-42b8-949f-9998d0f858f2")
+	)
+	(pad "2" thru_hole circle
+		(at 0.75 1.35)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9da771bb-e896-47af-bf20-f18e59083617")
+	)
+	(pad "3" thru_hole circle
+		(at -2.75 -3.75)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d68dc405-29f7-4066-b85d-7ca5933b73b6")
+	)
+	(model "${CUSTOM_LIBS}/liebler_CONN.pretty/WAGO_250-203_000-006.stp"
+		(offset
+			(xyz 6 -1.25 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

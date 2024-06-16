@@ -1,41 +1,290 @@
-(module WAGO_250_203 (layer F.Cu) (tedit 605097AD)
-  (descr WAGO_250_203)
-  (fp_text reference REF** (at 2.750066 0) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value CONN_250-203_WAG (at 2.6 -8.7) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_circle (center 0 1.905) (end 0.381 1.905) (layer F.Fab) (width 0.1524))
-  (fp_circle (center -5.154934 0) (end -4.773934 0) (layer B.SilkS) (width 0.1524))
-  (fp_circle (center -5.154934 0) (end -4.773934 0) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 9.004064 -7.554001) (end -3.503932 -7.554001) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start 9.004064 4.953998) (end 9.004064 -7.554001) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start -3.503932 4.953998) (end 9.004064 4.953998) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start -3.503932 -7.554001) (end -3.503932 4.953998) (layer F.CrtYd) (width 0.1524))
-  (fp_line (start -3.249932 -7.300001) (end -3.249932 4.699998) (layer F.Fab) (width 0.1524))
-  (fp_line (start 8.750064 -7.300001) (end -3.249932 -7.300001) (layer F.Fab) (width 0.1524))
-  (fp_line (start 8.750064 4.699998) (end 8.750064 -7.300001) (layer F.Fab) (width 0.1524))
-  (fp_line (start -3.249932 4.699998) (end 8.750064 4.699998) (layer F.Fab) (width 0.1524))
-  (fp_line (start -3.376932 -7.427001) (end -3.376932 4.826998) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 8.877064 -7.427001) (end -3.376932 -7.427001) (layer F.SilkS) (width 0.1524))
-  (fp_line (start 8.877064 4.826998) (end 8.877064 -7.427001) (layer F.SilkS) (width 0.1524))
-  (fp_line (start -3.376932 4.826998) (end 8.877064 4.826998) (layer F.SilkS) (width 0.1524))
-  (fp_text user C (at 0 0) (layer Cmts.User) hide
-    (effects (font (size 0.127 0.127) (thickness 0.002)))
-  )
-  (fp_text user B (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text user A (at 0 0) (layer F.Fab) hide
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1.016) (layers *.Cu *.Mask))
-  (pad 2 thru_hole circle (at 3.500001 -5) (size 2 2) (drill 1.016) (layers *.Cu *.Mask))
-  (pad 3 thru_hole circle (at 7.000001 0) (size 2 2) (drill 1.016) (layers *.Cu *.Mask))
-  (model ${CUSTOM_LIBS}/liebler_CONN.pretty/WAGO_250-203_000-006.stp
-    (offset (xyz 8.75 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 90))
-  )
+(footprint "WAGO_250_203"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "WAGO_250_203")
+	(property "Reference" "REF**"
+		(at 2.750066 0 0)
+		(layer "F.SilkS")
+		(uuid "557822c9-3622-493f-9a6b-c2cc5508a6ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN_250-203_WAG"
+		(at 2.6 -8.7 0)
+		(layer "F.SilkS")
+		(uuid "7298cbc2-dbdf-4926-81a7-a3ae50891edd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c58ef48f-312c-4c91-9853-7b009b97ad97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d8e72b5-2f7b-44a4-95da-2e466a366840")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "651f37da-0241-4a4a-b1e9-97edeb5fdd85")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -5.154934 0)
+		(end -4.773934 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.SilkS")
+		(uuid "27db93de-576d-4ac2-ba98-04465cc48279")
+	)
+	(fp_line
+		(start -3.376932 -7.427001)
+		(end -3.376932 4.826998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b660e9ec-0f5d-4fa6-bb1b-e75f0b582477")
+	)
+	(fp_line
+		(start -3.376932 4.826998)
+		(end 8.877064 4.826998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8b99c058-3dce-48ab-b5a4-42532694b81d")
+	)
+	(fp_line
+		(start 8.877064 -7.427001)
+		(end -3.376932 -7.427001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6e3b9fa-ebd9-4170-93de-e18807307104")
+	)
+	(fp_line
+		(start 8.877064 4.826998)
+		(end 8.877064 -7.427001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ee8c500-ac7a-40a2-99a0-5e9d62cc3b6e")
+	)
+	(fp_circle
+		(center -5.154934 0)
+		(end -4.773934 0)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "eb1d688b-d23a-49a6-8908-03c3608d1907")
+	)
+	(fp_line
+		(start -3.4 -7.5)
+		(end -3.4 4.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "444b1a5d-844c-4774-85a1-709d8cd8195f")
+	)
+	(fp_line
+		(start -3.4 4.9)
+		(end 8.9 4.9)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c5e64dd1-79f9-4448-82ec-0130fbcec4b6")
+	)
+	(fp_line
+		(start 8.9 -7.5)
+		(end -3.4 -7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b827a22a-f812-49ce-b9c4-573bcc7d157f")
+	)
+	(fp_line
+		(start 8.9 4.9)
+		(end 8.9 -7.5)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e0d0f4af-56d8-4d98-b2b3-3f1ab1b4964b")
+	)
+	(fp_line
+		(start -3.249932 -7.300001)
+		(end -3.249932 4.699998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ee9e4570-aae7-4cf1-bb0b-6032d2c37a17")
+	)
+	(fp_line
+		(start -3.249932 4.699998)
+		(end 8.750064 4.699998)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec746fea-827e-471c-93b9-7447c119562f")
+	)
+	(fp_line
+		(start 8.750064 -7.300001)
+		(end -3.249932 -7.300001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "21328f7d-c519-4665-aa91-5f5bdfe12b2f")
+	)
+	(fp_line
+		(start 8.750064 4.699998)
+		(end 8.750064 -7.300001)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4791cef2-f778-4a11-9234-d1046fa1fd19")
+	)
+	(fp_circle
+		(center 0 1.905)
+		(end 0.381 1.905)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e6dfbecb-03fc-488f-abe3-995f07074002")
+	)
+	(fp_text user "B"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "cf03ca7d-7c02-448f-8b80-1e406d99e77b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "C"
+		(at 0 0 0)
+		(layer "Cmts.User")
+		(hide yes)
+		(uuid "c5d923a2-299c-4204-8744-000a9fa32fcf")
+		(effects
+			(font
+				(size 0.127 0.127)
+				(thickness 0.002)
+			)
+		)
+	)
+	(fp_text user "A"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "523a47c3-e1fb-49f9-956e-778a201af012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a2764110-7c69-4521-b308-6b2d929304f6")
+	)
+	(pad "2" thru_hole circle
+		(at 3.500001 -5)
+		(size 2 2)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "771849a2-bc59-4712-b36f-221aa957402a")
+	)
+	(pad "3" thru_hole circle
+		(at 7.000001 0)
+		(size 2 2)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f74091b5-dbed-494c-932e-11891e55007d")
+	)
+	(model "${CUSTOM_LIBS}/liebler_CONN.pretty/WAGO_250-203_000-006.stp"
+		(offset
+			(xyz 8.75 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
 )
