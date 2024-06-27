@@ -40,7 +40,7 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912111437_SHOU-HAN-TF-PUSH_C393941.pdf"
 		(at 4.95 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
