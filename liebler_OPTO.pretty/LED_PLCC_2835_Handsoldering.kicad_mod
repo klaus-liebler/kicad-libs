@@ -1,33 +1,232 @@
-(module LED_PLCC_2835_Handsoldering (layer F.Cu) (tedit 61327EC4)
-  (descr https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf)
-  (tags LED)
-  (attr smd)
-  (fp_text reference REF** (at 0 -2.4) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value LED_PLCC_2835_Handsoldering (at 0 2.475) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -1.05 -1.4) (end -1.75 -0.7) (layer F.Fab) (width 0.1))
-  (fp_line (start -2.5 -1.6) (end -2.5 1.6) (layer F.SilkS) (width 0.12))
-  (fp_line (start 1.75 1.4) (end -1.75 1.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.75 1.4) (end -1.75 -0.7) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.05 -1.4) (end 1.75 -1.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.75 -1.4) (end 1.75 1.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.4 1.6) (end -2.5 1.6) (layer F.SilkS) (width 0.12))
-  (fp_line (start 1.4 -1.6) (end -2.5 -1.6) (layer F.SilkS) (width 0.12))
-  (fp_line (start 2.55 1.65) (end -2.55 1.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.55 1.65) (end -2.55 -1.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -2.55 -1.65) (end 2.55 -1.65) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 2.55 -1.65) (end 2.55 1.65) (layer F.CrtYd) (width 0.05))
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 0.9 0.9) (thickness 0.135)))
-  )
-  (pad 1 smd rect (at -1.3 0) (size 3 2.2) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.75 0) (size 2 2.2) (layers F.Cu F.Paste F.Mask))
-  (model ${KISYS3DMOD}/LED_SMD.3dshapes/LED_PLCC_2835.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "LED_PLCC_2835_Handsoldering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "https://www.luckylight.cn/media/component/data-sheet/R2835BC-B2M-M10.pdf")
+	(tags "LED")
+	(property "Reference" "REF**"
+		(at 0 -2.4 0)
+		(layer "F.SilkS")
+		(uuid "e6e4f2da-d851-4373-95ef-9403ce555582")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LED_PLCC_2835_Handsoldering"
+		(at 0 2.475 0)
+		(layer "F.Fab")
+		(uuid "7e6ae2f2-888b-4763-b058-e8d8370958c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "LED_PLCC_2835_Handsoldering"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8e2532af-39a5-4db1-97f4-74b9382a4ce1")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "48c916eb-80f3-4695-9b8d-15ba3ef361b2")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "120b169d-1664-4e45-a0b9-b6bf78fdee7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cbe08cd-d2e4-47bb-af86-a78cf0a3f79b")
+	)
+	(fp_line
+		(start 1.4 -1.6)
+		(end -2.5 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9a58fd2c-1219-4864-adda-4f0c6c57f9cb")
+	)
+	(fp_line
+		(start 1.4 1.6)
+		(end -2.5 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "41ebea59-879b-4ea0-8ac1-5f49c3fb1506")
+	)
+	(fp_line
+		(start -2.55 -1.65)
+		(end 2.55 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e04e4f01-026f-480f-818c-457af67ef6d2")
+	)
+	(fp_line
+		(start -2.55 1.65)
+		(end -2.55 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "675c58d1-319b-4903-9b46-5cd4dd888e4a")
+	)
+	(fp_line
+		(start 2.55 -1.65)
+		(end 2.55 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fbedfd8d-f9db-4bb6-8225-9b38a8b68ead")
+	)
+	(fp_line
+		(start 2.55 1.65)
+		(end -2.55 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dffb2377-1dbd-4fcb-85f2-f5a4c470565e")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "007d00d7-a2e8-4a96-bf63-609a872f7707")
+	)
+	(fp_line
+		(start -1.05 -1.4)
+		(end -1.75 -0.7)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78b5b906-3578-4f2f-94f5-5f2ef71c3565")
+	)
+	(fp_line
+		(start -1.05 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94e1cc48-038b-494a-9e77-039d43aec79c")
+	)
+	(fp_line
+		(start 1.75 -1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9a6f5ee3-7613-481b-ad97-114a9e742440")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end -1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c210cdb2-1aaf-4afe-baea-5685ac137caf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "4a47ded5-5740-4c0b-b8a4-b2090cf7ab23")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.135)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.3 0)
+		(size 3 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eadf61b6-4622-437f-bdae-77f84397f92a")
+	)
+	(pad "2" smd rect
+		(at 1.75 0)
+		(size 2 2.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a1011418-b2ba-4747-a895-22ab7453a760")
+	)
+	(model "${KISYS3DMOD}/LED_SMD.3dshapes/LED_PLCC_2835.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "${CUSTOM_LIBS}/liebler_OPTO.pretty/LED 2835.stp"
+		(offset
+			(xyz -1.5 -1.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
