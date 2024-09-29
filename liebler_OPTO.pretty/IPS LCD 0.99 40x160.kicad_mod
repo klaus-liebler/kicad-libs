@@ -1,0 +1,175 @@
+(footprint "IPS LCD 0.99 40x160"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6c62f3a-f43a-4a19-bffe-e50185417fd0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "IPS LCD 0.99 40x160"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "873f31b3-28ba-4b64-be3e-64a645873569")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da852726-31c3-4150-85b5-676d9e5af1cc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d210997-c21d-4178-9f8a-61ef98afff30")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00809270-8916-4a07-a682-1892226ea0e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -15 -4.3)
+		(end 15 4.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "1c584350-a3ce-4733-b1ef-d796da0c528f")
+	)
+	(fp_rect
+		(start -14 -3.5)
+		(end 12 3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "f3cad947-c072-41a8-8b77-ed7afa3d3f34")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f441182d-1be9-4e1d-b5cd-470f3a8f53b3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 -3.15 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "3b34bd6b-1632-48fb-8c16-885b752cc83c")
+	)
+	(pad "2" smd rect
+		(at 0 -2.45 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b39638c8-936e-4ad8-8327-eb9689a30cc1")
+	)
+	(pad "3" smd rect
+		(at 0 -1.75 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "85d41806-cdd6-4629-a198-810e71978148")
+	)
+	(pad "4" smd rect
+		(at 0 -1.05 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "5b9dd383-cbfc-422c-b29d-94f6a3191d7e")
+	)
+	(pad "5" smd rect
+		(at 0 -0.35 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "842170d1-9029-4260-b93c-947f699f85e4")
+	)
+	(pad "6" smd rect
+		(at 0 0.35 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e60fb968-fa7b-430e-a5ae-4d5b3dc7aa8b")
+	)
+	(pad "7" smd rect
+		(at 0 1.05 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "b198751c-2045-4832-a64a-e77b8312c2f9")
+	)
+	(pad "8" smd rect
+		(at 0 1.75 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8d515c89-7d3b-4cb7-bed2-a381d648848b")
+	)
+	(pad "9" smd rect
+		(at 0 2.45 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fe55da22-3be9-4635-bac7-ea9e1a7041fd")
+	)
+	(pad "10" smd rect
+		(at 0 3.15 90)
+		(size 0.4 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0db3b04b-1185-4c0a-b393-6471a560b9de")
+	)
+	(model "${CUSTOM_LIBS}/liebler_OPTO.pretty/0.96 - IPS LCD - No Glass -8Pin - Reverse Mount.stp"
+		(offset
+			(xyz 0 0 0.5)
+		)
+		(scale
+			(xyz 1.05 0.6 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
