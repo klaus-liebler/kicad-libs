@@ -1,0 +1,213 @@
+(footprint "RotaryEncoder_EC11_SMD_handsolder"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "69d92c14-887f-4f52-b981-ef3026b3a763")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "RotaryEncoder_EC11_SMD_handsolder"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b59071e5-fd54-4d7f-91e6-86b20f307724")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83795882-48ed-430a-a7f3-03b8e57f6fd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be17913a-c7e9-419d-b13a-41e90e4776f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a71739d6-9027-4d0f-85fd-3b4170078c89")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.6 8)
+		(end -3.3 8.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "447ca356-26d8-4fca-99d8-16c8fe3945d3")
+	)
+	(fp_line
+		(start -3.6 8.6)
+		(end -3.6 8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1a4f29d5-a6c9-40dc-ba91-4a7b0259db2c")
+	)
+	(fp_line
+		(start -3.3 8.3)
+		(end -3.6 8.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7cd5b264-013e-4628-b7e9-8ac52ade4762")
+	)
+	(fp_rect
+		(start -6 -6)
+		(end 6 6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "d7adc33d-bf36-4c01-82dc-5ab3a0550903")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "91be8a68-9584-42cf-b5d7-2cce8c101adf")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7cd3710f-bc4f-4c8f-9b11-e666aa838d7d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -2 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "db32fa6c-ae39-4187-923e-c055d8015e42")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.5 0)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "65927741-3f21-4aa3-bead-82ff8f5fcf13")
+	)
+	(pad "A" smd roundrect
+		(at -2.5 8.3)
+		(size 1.3 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "2dafe934-647b-4b69-86a4-a8940b386a71")
+	)
+	(pad "B" smd roundrect
+		(at 2.5 8.3)
+		(size 1.3 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "d67cbac5-fa1f-44fd-a861-00f1190a0b5b")
+	)
+	(pad "C" smd roundrect
+		(at 0 8.3)
+		(size 1.3 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "c4fd4e9a-3dce-4124-966e-debb02045453")
+	)
+	(pad "MP" smd roundrect
+		(at -7.8 0)
+		(size 3.6 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
+		(uuid "bf500ce2-7167-420d-b1ef-977273228a20")
+	)
+	(pad "MP" smd roundrect
+		(at 7.8 0)
+		(size 3.6 5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.2083333333)
+		(uuid "f81d71c3-85d4-49f1-817f-92725c24e61a")
+	)
+	(pad "S1" smd roundrect
+		(at -2.5 -8.3)
+		(size 1.3 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "ccfe49d3-d5b9-40fd-b064-a6c9f63a6b1a")
+	)
+	(pad "S2" smd roundrect
+		(at 2.5 -8.3)
+		(size 1.3 2.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a6ca09f1-5be1-43fa-8986-e4d4f1e35174")
+	)
+	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/EC11-SMD-20K-thread-blue.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
