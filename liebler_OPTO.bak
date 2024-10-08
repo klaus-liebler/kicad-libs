@@ -83,6 +83,17 @@
 			)
 		)
 		(symbol "DY-S1515065/RGBC/6805-5T_0_1"
+			(rectangle
+				(start -5.08 5.08)
+				(end 5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
 			(polyline
 				(pts
 					(xy 1.27 -3.556) (xy 1.778 -3.556)
@@ -165,17 +176,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(rectangle
-				(start 5.08 5.08)
-				(end -5.08 -5.08)
-				(stroke
-					(width 0.254)
-					(type default)
-				)
-				(fill
-					(type background)
 				)
 			)
 		)
@@ -841,7 +841,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -5.08 7.62 0)
+			(at -5.08 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -850,7 +850,7 @@
 			)
 		)
 		(property "Value" "IPS_160_40_10P"
-			(at -5.08 5.08 0)
+			(at -5.08 13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -858,8 +858,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "smopla:IPS_240_240"
-			(at 0 0 0)
+		(property "Footprint" "liebler_OPTO:IPS LCD 0.99 40x160"
+			(at 0.762 -14.478 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -868,7 +868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -877,7 +877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 0)
+			(at 0 8.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -887,8 +887,8 @@
 		)
 		(symbol "IPS_160_40_10P_0_1"
 			(rectangle
-				(start -5.08 3.81)
-				(end 5.08 -16.51)
+				(start -5.08 12.7)
+				(end 5.08 -12.7)
 				(stroke
 					(width 0)
 					(type default)
@@ -899,10 +899,10 @@
 			)
 		)
 		(symbol "IPS_160_40_10P_1_1"
-			(pin power_in line
-				(at -7.62 2.54 0)
+			(pin input line
+				(at -7.62 11.43 0)
 				(length 2.54)
-				(name "GND"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -918,9 +918,27 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 0 0)
+				(at -7.62 -11.43 0)
 				(length 2.54)
-				(name "VCC"
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 8.89 0)
+				(length 2.54)
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -936,9 +954,9 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -2.54 0)
+				(at -7.62 6.35 0)
 				(length 2.54)
-				(name "SCL"
+				(name "RS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -954,9 +972,9 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -5.08 0)
+				(at -7.62 3.81 0)
 				(length 2.54)
-				(name "SDA"
+				(name "RES"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -972,9 +990,9 @@
 				)
 			)
 			(pin input line
-				(at -7.62 -7.62 0)
+				(at -7.62 1.27 0)
 				(length 2.54)
-				(name "RES"
+				(name "CS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -989,10 +1007,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 -10.16 0)
+			(pin power_in line
+				(at -7.62 -1.27 0)
 				(length 2.54)
-				(name "DC"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1007,10 +1025,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 -12.7 0)
+			(pin power_in line
+				(at -7.62 -3.81 0)
 				(length 2.54)
-				(name "CS"
+				(name "VCC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1025,10 +1043,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -7.62 -15.24 0)
+			(pin passive line
+				(at -7.62 -6.35 0)
 				(length 2.54)
-				(name "BLK"
+				(name "LEDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1036,6 +1054,24 @@
 					)
 				)
 				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -7.62 -8.89 0)
+				(length 2.54)
+				(name "LEDK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2521,6 +2557,258 @@
 			)
 		)
 		(symbol "SK6812SIDE_1_1"
+			(pin input line
+				(at -7.62 0 0)
+				(length 2.54)
+				(name "DIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 7.62 0 180)
+				(length 2.54)
+				(name "DOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "XL-1010RGBC-WS2812B"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D?"
+			(at 2.54 8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DY-S1515065{slash}RGBC{slash}6805-5T"
+			(at 16.51 6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "liebler_OPTO:LED_0606"
+			(at 1.27 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 2.54 -9.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "RGB LED NeoPixel Nano addressable"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "LED*SK6805*PLCC*2.4x2.7mm*P1.3mm*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "XL-1010RGBC-WS2812B_0_0"
+			(text "RGB"
+				(at 2.286 -4.191 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+		)
+		(symbol "XL-1010RGBC-WS2812B_0_1"
+			(polyline
+				(pts
+					(xy 1.27 -3.556) (xy 1.778 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 -2.54) (xy 1.778 -2.54)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -3.556) (xy 2.667 -3.556)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 5.08 5.08)
+				(end -5.08 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "XL-1010RGBC-WS2812B_1_1"
 			(pin input line
 				(at -7.62 0 0)
 				(length 2.54)
