@@ -1,0 +1,151 @@
+(footprint "KF142R-2-5.08"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c34e5058-69bb-460f-99b8-f7dbd6d2f056")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KF142R-2-5.08"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5173d911-6ca2-492c-b99f-4a22eff46012")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b08f169-9e18-4a36-9533-de8e2281cb7c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9114c16e-247f-40ad-ac70-f9f9943107af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "914cabf2-b396-4f05-8334-757f9579e360")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -3.25 -1.8)
+		(end 9.45 12.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "24d0a389-474a-4f35-ac2e-65e7b87f1511")
+	)
+	(fp_rect
+		(start -3.25 -1.8)
+		(end 9.45 12.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "c13d8075-8f1e-45f7-98a5-e5aabaecadfe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "23d2ae37-59fc-4e47-9b1a-ce5150ac3b13")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 1.5 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "b1255631-2532-428e-af71-e492f49abbeb")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 7.62)
+		(size 1.5 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "ed0d825c-74d1-4d24-a269-0bb0312b86f7")
+	)
+	(pad "2" thru_hole roundrect
+		(at 5.08 0)
+		(size 1.5 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "916dd8d8-7c69-4128-aaa5-0b1bd9b63dd2")
+	)
+	(pad "2" thru_hole roundrect
+		(at 5.08 7.62)
+		(size 1.5 2.2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1388888889)
+		(uuid "992be852-4205-4f6c-9c76-9e79a913c9a4")
+	)
+	(model "${CUSTOM_LIBS}/liebler_CONN.pretty/KF142R-2-5.08.stp"
+		(offset
+			(xyz -23.6 -12.4 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
