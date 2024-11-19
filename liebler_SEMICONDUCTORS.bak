@@ -9266,7 +9266,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 22.86 180)
+				(at 15.24 12.7 180)
 				(length 2.54)
 				(name "OB2"
 					(effects
@@ -9500,7 +9500,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 12.7 180)
+				(at 15.24 15.24 180)
 				(length 2.54)
 				(name "OA2"
 					(effects
@@ -9554,7 +9554,7 @@
 				)
 			)
 			(pin output line
-				(at 15.24 10.16 180)
+				(at 15.24 17.78 180)
 				(length 2.54)
 				(name "OA1"
 					(effects
