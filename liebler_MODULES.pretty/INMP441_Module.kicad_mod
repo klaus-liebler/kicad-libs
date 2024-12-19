@@ -1,31 +1,260 @@
-(module INMP441_Module (layer F.Cu) (tedit 613202AC)
-  (fp_text reference REF** (at -0.5 -3) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
-  )
-  (fp_text value INMP441_Module (at -0.5 -4.5) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left))
-  )
-  (fp_circle (center 0 0) (end 0 -7) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0 1.524) (end 0.508 1.778) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0.508 1.778) (end 0.508 3.556) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0.508 3.556) (end 0 3.81) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0 3.81) (end -0.508 3.556) (layer F.SilkS) (width 0.12))
-  (fp_line (start -0.508 3.556) (end -0.508 1.778) (layer F.SilkS) (width 0.12))
-  (fp_line (start -0.508 1.778) (end 0 1.524) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.016 3.556) (end 0 4.064) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0 4.064) (end 1.016 3.556) (layer F.SilkS) (width 0.12))
-  (fp_line (start -0.508 3.81) (end -0.508 4.826) (layer F.SilkS) (width 0.12))
-  (fp_line (start 0.508 3.81) (end 0.508 4.826) (layer F.SilkS) (width 0.12))
-  (fp_line (start -1.27 4.826) (end 1.016 4.826) (layer F.SilkS) (width 0.12))
-  (pad 1 thru_hole roundrect (at -3.81 -2.54) (size 2 1.6) (drill 1 (offset -0.2 0)) (layers *.Cu *.Mask) (roundrect_rratio 0.25))
-  (pad 2 thru_hole oval (at -3.81 0) (size 2 1.6) (drill 1 (offset -0.2 0)) (layers *.Cu *.Mask))
-  (pad 3 thru_hole oval (at -3.81 2.54) (size 2 1.6) (drill 1 (offset -0.2 0)) (layers *.Cu *.Mask))
-  (pad 4 thru_hole oval (at 3.81 2.54) (size 2 1.6) (drill 1 (offset 0.2 0)) (layers *.Cu *.Mask))
-  (pad 5 thru_hole oval (at 3.81 0) (size 2 1.6) (drill 1 (offset 0.2 0)) (layers *.Cu *.Mask))
-  (pad 6 thru_hole oval (at 3.81 -2.54) (size 2 1.6) (drill 1 (offset 0.2 0)) (layers *.Cu *.Mask))
-  (model "${CUSTOM_LIBS}/smopla.3d/INMP441_module v4.step"
-    (offset (xyz 0 0 3))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "INMP441_Module"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.5 -3 0)
+		(layer "F.SilkS")
+		(uuid "6122598e-60f1-49c8-9912-7d315618b4e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "INMP441_Module"
+		(at -0.5 -4.5 0)
+		(layer "F.SilkS")
+		(uuid "c7bb321b-9443-4e19-b6ec-d037a63ade2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd5e6ee6-0675-4358-a40d-177c1b093538")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ddf4ebd9-f877-492b-9f3d-13b017ee9e97")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa318c64-9e92-4bcc-9e8d-e2fe7dee4b57")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.27 4.826)
+		(end 1.016 4.826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "52a4dc6f-5fa5-409c-bad3-2b0a1147ace2")
+	)
+	(fp_line
+		(start -1.016 3.556)
+		(end 0 4.064)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9e2a0e4d-fc10-4b33-ba53-7ba38391a7cc")
+	)
+	(fp_line
+		(start -0.508 1.778)
+		(end 0 1.524)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "194ed430-1d7e-41e8-8dc0-e0b75b790038")
+	)
+	(fp_line
+		(start -0.508 3.556)
+		(end -0.508 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e8ca3afc-2f39-49c4-a9bb-9a1421e29a08")
+	)
+	(fp_line
+		(start -0.508 3.81)
+		(end -0.508 4.826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "74e9930c-7277-444d-b86b-26348a059ce4")
+	)
+	(fp_line
+		(start 0 1.524)
+		(end 0.508 1.778)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e0dfec23-0a36-451e-9f17-e4dc1c9e58be")
+	)
+	(fp_line
+		(start 0 3.81)
+		(end -0.508 3.556)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b624ef67-a996-4888-a615-7584a6964062")
+	)
+	(fp_line
+		(start 0 4.064)
+		(end 1.016 3.556)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e980c6f0-c90e-47a7-a1ca-b9eb033a0ec7")
+	)
+	(fp_line
+		(start 0.508 1.778)
+		(end 0.508 3.556)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cc3faf7-3c34-46f4-bda4-87582ef0fbde")
+	)
+	(fp_line
+		(start 0.508 3.556)
+		(end 0 3.81)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "77ae3f0d-b284-4359-8f7a-3e9695f3adda")
+	)
+	(fp_line
+		(start 0.508 3.81)
+		(end 0.508 4.826)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "466f9afd-0d02-49b1-a2c2-052fcd194daa")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -7)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "39ad3465-169a-4722-ac04-451ca170e9ca")
+	)
+	(pad "1" thru_hole roundrect
+		(at -3.81 -2.54)
+		(size 2 1.6)
+		(drill 1
+			(offset -0.2 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "ac9fd09e-c4c6-4622-9925-0d92d700eeca")
+	)
+	(pad "2" thru_hole oval
+		(at -3.81 0)
+		(size 2 1.6)
+		(drill 1
+			(offset -0.2 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "70fe57ad-6636-4b16-ac18-3e599cc21471")
+	)
+	(pad "3" thru_hole oval
+		(at -3.81 2.54)
+		(size 2 1.6)
+		(drill 1
+			(offset -0.2 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f47bf1d2-24c4-4b7a-858b-4963485b3ad5")
+	)
+	(pad "4" thru_hole oval
+		(at 3.81 2.54)
+		(size 2 1.6)
+		(drill 1
+			(offset 0.2 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cf5f4095-347e-480f-9a6d-d21d9fe3671e")
+	)
+	(pad "5" thru_hole oval
+		(at 3.81 0)
+		(size 2 1.6)
+		(drill 1
+			(offset 0.2 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "384d0c30-64d5-4217-9df8-baf5d83bdbcf")
+	)
+	(pad "6" thru_hole oval
+		(at 3.81 -2.54)
+		(size 2 1.6)
+		(drill 1
+			(offset 0.2 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "eaaa6cff-954c-4e31-9dcc-0396260dff03")
+	)
+	(model "${CUSTOM_LIBS}/liebler_MODULES.pretty/INMP441 I2S Microphone Module v15.step"
+		(offset
+			(xyz 0 0 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
