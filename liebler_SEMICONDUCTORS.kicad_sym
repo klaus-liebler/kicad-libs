@@ -9571,6 +9571,24 @@
 					)
 				)
 			)
+			(pin passive line
+				(at 0 -27.94 90)
+				(length 2.54) hide
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin no_connect line
 				(at 12.7 0 180)
 				(length 2.54) hide

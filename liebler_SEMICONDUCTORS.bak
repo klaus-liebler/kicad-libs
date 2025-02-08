@@ -10184,7 +10184,7 @@
 			)
 		)
 		(property "Value" "TPS92200D1DDCR"
-			(at 6.35 -6.35 0)
+			(at 9.398 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10200,7 +10200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62150.pdf"
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps92200.pdf"
 			(at 0 -17.78 0)
 			(effects
 				(font
@@ -10209,17 +10209,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1.5A, 1.3MHz Buck DC/DC Converter, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "1.5A 1.3MHz PWM Buck DC/DC"
-			(at 0 0 0)
+		(property "Description" " 4-V to 30-V Input Voltage, 1.5-A Output Current, Synchronous Buck LED Driver With Flexible Dimming Options"
+			(at -0.254 -20.828 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10250,10 +10241,10 @@
 			)
 		)
 		(symbol "TPS92200D1DDCR_1_1"
-			(pin power_in line
-				(at 0 -7.62 90)
+			(pin input line
+				(at 10.16 -2.54 180)
 				(length 2.54)
-				(name "GND"
+				(name "FB"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10268,10 +10259,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 10.16 2.54 180)
+			(pin passive line
+				(at -10.16 -2.54 0)
 				(length 2.54)
-				(name "SW"
+				(name "DIM"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10279,6 +10270,24 @@
 					)
 				)
 				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10296,24 +10305,6 @@
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
 				(number "4"
 					(effects
 						(font
@@ -10322,10 +10313,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -10.16 -2.54 0)
+			(pin output line
+				(at 10.16 2.54 180)
 				(length 2.54)
-				(name "EN"
+				(name "SW"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10343,7 +10334,7 @@
 			(pin passive line
 				(at 10.16 0 180)
 				(length 2.54)
-				(name "BST"
+				(name "BOOT"
 					(effects
 						(font
 							(size 1.27 1.27)
