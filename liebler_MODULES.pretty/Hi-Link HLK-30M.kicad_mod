@@ -1,0 +1,144 @@
+(footprint "Hi-Link HLK-30M"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.9 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "2663aae6-46b5-4850-ba3d-a2c7dbafcb8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Hi-Link HLK-30M"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f2db9f58-0a1d-4f2c-88e7-7c8e78bc3d96")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ed37f41a-42d4-4af8-8968-fada0b23afc3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a179b398-0062-4443-911f-6b0709eae4b9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6d3b75c8-46f3-4938-b0d3-3c5a9acde845")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -28.75 -16.75)
+		(end 28.75 16.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3213c5e8-e3bc-4a0c-87a6-320bdef856c7")
+	)
+	(fp_rect
+		(start -28.8 -16.8)
+		(end 28.8 16.8)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e4dedb79-9648-40a6-a26f-15c6643ccca5")
+	)
+	(fp_rect
+		(start -28.75 -16.75)
+		(end 28.75 16.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "81f2cdc0-65c7-44a6-a794-cef10df6a44c")
+	)
+	(pad "AC1" thru_hole roundrect
+		(at -25.5 3.81)
+		(size 2.2 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.1666666667)
+		(uuid "d99d912e-1d2e-48ec-9784-d9fe99ee106b")
+	)
+	(pad "AC2" thru_hole oval
+		(at -25.5 8.89)
+		(size 2.2 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "28f7d136-fd15-468a-b205-33c86d5e8099")
+	)
+	(pad "VO+" thru_hole circle
+		(at 25.5 -6.35)
+		(size 2.5 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd745a35-26e9-40eb-b6bb-bdaebac56a11")
+	)
+	(pad "VO-" thru_hole circle
+		(at 25.5 -13.97)
+		(size 2.5 2.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fe96337-18bb-4770-82ef-f7de70c26a75")
+	)
+	(model "${CUSTOM_LIBS}/liebler_MODULES.pretty/HLK-5M05.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
