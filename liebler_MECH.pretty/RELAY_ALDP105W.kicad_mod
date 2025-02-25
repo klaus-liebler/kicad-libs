@@ -1,38 +1,27 @@
 (footprint "RELAY_ALDP105W"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -7.41468 -4.66112 0)
+		(at -4.3 -1.35 0)
 		(layer "F.SilkS")
 		(uuid "0f882148-fc6b-4672-8a77-5c707d5b9c89")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.015)
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
 			)
 		)
 	)
 	(property "Value" "RELAY_ALDP105W"
-		(at -3.0931 4.59564 0)
+		(at 0.05 0.1 0)
 		(layer "F.Fab")
 		(uuid "cf0bb8c0-f642-455f-89b1-4c8ae7f39eb9")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.015)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "8e5b7939-5164-48d4-a802-ab9159bbddda")
-		(effects
-			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
@@ -119,7 +108,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "14c58e8a-3113-4681-8c85-1c748de82fc4")
 	)
@@ -130,7 +119,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "05365817-72c7-4680-9e3f-9d294a1c234c")
 	)
@@ -181,7 +170,7 @@
 			(width 0.2)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "faa75837-aa64-4734-ac8a-08ec02c05de1")
 	)
@@ -217,6 +206,7 @@
 		(remove_unused_layers no)
 		(uuid "2ca7bf2c-3398-4b6d-9c4c-f9d3fc9eccd6")
 	)
+	(embedded_fonts no)
 	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/aldp1・・・.step"
 		(offset
 			(xyz 0 0 0)
