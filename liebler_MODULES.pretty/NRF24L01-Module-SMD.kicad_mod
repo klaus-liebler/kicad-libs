@@ -1,0 +1,268 @@
+(footprint "NRF24L01-Module-SMD"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole pin header, pitch 1.27mm")
+	(tags "pin header")
+	(property "Reference" "REF**"
+		(at -9.5 0 0)
+		(layer "F.SilkS")
+		(uuid "f2fb08f3-192a-4206-953a-50a2b07cb5a2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "nRF24L01_module"
+		(at -8 -5.1 0)
+		(layer "F.Fab")
+		(uuid "b2581f5d-136f-4b65-8d20-daa0ab770551")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "38c68cad-1f5c-4a58-a134-596f42a9bbd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2084eb-ca6d-4098-a474-5eca1477f2c4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -17 -6)
+		(end -17 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4ec8070e-2a3c-49f4-bcaa-3df9a0aad289")
+	)
+	(fp_line
+		(start -17 6)
+		(end 1 6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8ff21b1f-50c5-4210-b225-ce44d4faecfe")
+	)
+	(fp_line
+		(start 1 -6)
+		(end -17 -6)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "895e3784-9723-44e5-8e01-573ef2dfabef")
+	)
+	(fp_rect
+		(start -17.05 -6)
+		(end 2 6.05)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d81b4f48-1d82-40ec-b695-bfe0161154f4")
+	)
+	(fp_text user "GND"
+		(at -2.3 3.2 0)
+		(layer "F.SilkS")
+		(uuid "058504f3-7e70-4e8e-b370-5fe46fc39843")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "MOSI"
+		(at -2.6 -1.8 0)
+		(layer "F.SilkS")
+		(uuid "0f7648c2-b4ab-4b08-8bdb-b38eb1c62a65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "IRQ"
+		(at -2.1 -4.4 0)
+		(layer "F.SilkS")
+		(uuid "28e895f8-b88e-4ab6-878e-b12dfb8345ea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CE"
+		(at -2.05 1.95 0)
+		(layer "F.SilkS")
+		(uuid "3c4d8d64-93b5-4964-abcd-5bb2d93ece01")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "SCK"
+		(at -2.3 -0.6 0)
+		(layer "F.SilkS")
+		(uuid "6b866c9a-93b1-4479-b9dc-ce3f6aa29249")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "MISO"
+		(at -2.6 -3.1 0)
+		(layer "F.SilkS")
+		(uuid "bf5ff11c-399d-4b91-8706-eddcaa647912")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "VCC"
+		(at -2.3 4.5 0)
+		(layer "F.SilkS")
+		(uuid "cffc4af2-dda4-435e-a41b-ed8fbf00c84c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "CSN"
+		(at -2.3 0.7 0)
+		(layer "F.SilkS")
+		(uuid "e6a6719e-3aaa-442a-91c3-8b0a46ef0ee2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.3 4.445)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f5cf3f70-637b-4a87-a196-c6bc395d9980")
+	)
+	(pad "2" smd rect
+		(at 0.3 3.175)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "fa21f7c8-3391-4a0c-8177-c903e268af2b")
+	)
+	(pad "3" smd rect
+		(at 0.3 1.905)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3541fe5-ff51-4b5d-889d-e7414cc36e7f")
+	)
+	(pad "4" smd rect
+		(at 0.3 0.635)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a1037907-9c93-45d0-962b-082dff5b06cb")
+	)
+	(pad "5" smd rect
+		(at 0.3 -0.635)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c30e1d8a-0c7c-47b1-bb53-a99504a68a5a")
+	)
+	(pad "6" smd rect
+		(at 0.3 -1.905)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f9f964e-975f-4af5-bbd5-d6ee29052748")
+	)
+	(pad "7" smd rect
+		(at 0.3 -3.175)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f7daacaf-7e42-4cbb-a054-ba6f17275994")
+	)
+	(pad "8" smd rect
+		(at 0.3 -4.445)
+		(size 2.5 0.95)
+		(drill
+			(offset 0.45 0)
+		)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "40b56f56-caff-4eea-93c5-49626edac724")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MODULES.pretty/nRF24L01+_SMD.stp"
+		(offset
+			(xyz 1 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+)
