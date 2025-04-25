@@ -1,7 +1,7 @@
 (footprint "Flachstecker gewinkelt 4,8 oder 6,35mm"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 -0.5 0)
@@ -20,19 +20,6 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8c1b33bf-955e-421d-a59a-75f53ef289ac")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "09019b38-337f-4992-b7f0-1cd92f6c66a7")
 		(effects
 			(font
 				(size 1 1)
@@ -74,7 +61,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.SilkS")
 		(uuid "aebc59fc-4e76-4e74-b13f-c0ba784807cb")
 	)
@@ -85,7 +72,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "5753dd2b-6c2b-4931-a4f3-ad840649806f")
 	)
@@ -104,7 +91,7 @@
 	(pad "1" thru_hole roundrect
 		(at -2.5 0)
 		(size 3 2.4)
-		(drill 1.4)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1041666667)
@@ -113,12 +100,13 @@
 	(pad "1" thru_hole roundrect
 		(at 2.5 0)
 		(size 3 2.4)
-		(drill 1.4)
+		(drill 1.3)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1041666667)
 		(uuid "232ada0c-7e2c-46d0-80ea-126084525e1c")
 	)
+	(embedded_fonts no)
 	(model "${CUSTOM_LIBS}/liebler_CONN.pretty/Flachstecker.STEP"
 		(offset
 			(xyz 0 -0.4 0)
