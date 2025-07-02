@@ -1,0 +1,207 @@
+(footprint "Encoder Alps-Alpine EC35"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5cbfd178-9066-49b8-8666-130f85bd5ae9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Encoder Alps-Alpine EC35"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e61095a4-d3a8-4e57-ad4d-1f1ab37ba889")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "090ce39c-f5cc-4271-9df2-7e4066ca5544")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d539fbe7-756b-48e1-b6ab-43f5d8b690c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 0 0)
+		(end 12.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a03ace29-af6b-4c33-9794-8bd6c7f6b352")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 17.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fbdf5b13-cb11-4c7a-b776-2e2334487f01")
+	)
+	(fp_line
+		(start 0 0)
+		(end -10.1 -10.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "c423b561-524d-4cb0-b75a-4ac2d49505e7")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a5a423db-a958-4996-be7f-2e73cc387838")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole roundrect
+		(at -17.25 0)
+		(size 2.8 6.5)
+		(drill oval 1.5 5.1
+			(offset -0.3 0)
+		)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.1612903226)
+		(uuid "6d93d245-7944-4771-b716-a1a8b063f96f")
+	)
+	(pad "" smd circle
+		(at -14.7 0)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dea41618-9254-49ce-ba20-4c6279fd3f4b")
+	)
+	(pad "" smd rect
+		(at -12.6 -12.6 45)
+		(size 5 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "032a8c8f-6dfd-44bf-8d09-701ebecd7c96")
+	)
+	(pad "" smd rect
+		(at -12.6 12.6 135)
+		(size 5 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2c0602a5-adca-4821-a011-538fb6375623")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 -14.7)
+		(size 1.55 1.55)
+		(drill oval 1.5 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8ccfe45f-697e-4e38-a4cc-4e0ca5bfef93")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.05 14.7)
+		(size 1.55 1.55)
+		(drill oval 1.5 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "558ccd74-76de-4f65-bc81-f62cb9e5eefa")
+	)
+	(pad "" smd rect
+		(at 12.6 -12.6 135)
+		(size 5 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "22f739e7-e75d-425d-923d-424afbc34d7c")
+	)
+	(pad "" smd rect
+		(at 12.6 12.6 45)
+		(size 5 7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "35a941ab-da29-4d33-aaf8-a5b2785a7cf3")
+	)
+	(pad "" smd circle
+		(at 14.7 0)
+		(size 2.6 2.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "370790ec-22da-472e-a517-82545276c270")
+	)
+	(pad "" np_thru_hole roundrect
+		(at 17.25 0)
+		(size 2.8 6.5)
+		(drill oval 1.5 5.1
+			(offset 0.3 0)
+		)
+		(layers "F&B.Cu" "*.Mask")
+		(roundrect_rratio 0.1612903226)
+		(uuid "f7703fa9-11d6-4aef-bb0d-967d737852fa")
+	)
+	(pad "A" thru_hole circle
+		(at -2.5 18.5)
+		(size 1.905 1.905)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c01841cf-9179-41a8-967c-77cce92702b3")
+	)
+	(pad "B" thru_hole circle
+		(at 2.5 18.5)
+		(size 1.905 1.905)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07a500a9-d16a-4a3a-bf11-6bb8e164d6da")
+	)
+	(pad "C" thru_hole circle
+		(at 0 18.5)
+		(size 1.905 1.905)
+		(drill 1.05)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bd457c5a-7a88-4431-94f3-1909b47df318")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/EC35A0930401.STEP"
+		(offset
+			(xyz 0 0 4.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
