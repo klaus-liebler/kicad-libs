@@ -303,15 +303,15 @@
 		(uuid "29937ed1-3ea3-48f6-8441-2519825230b8")
 	)
 	(embedded_fonts no)
-	(model "${KICAD9_3DMODEL_DIR}/Sensor.3dshapes/Avago_ADPS-9960.wrl"
+	(model "${CUSTOM_LIBS}/liebler_SENSORS.pretty/VCNL4040.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz -2 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -0 -0 90)
 		)
 	)
 )
