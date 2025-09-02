@@ -561,7 +561,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "liebler_OPTO:Display_P169H002-CTP"
 			(at 5.08 1.27 0)
 			(effects
 				(font

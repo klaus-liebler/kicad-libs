@@ -1,0 +1,154 @@
+(footprint "GX12-5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "5307d8fa-6721-464d-9081-3456fcd395f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "GX12-5"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cae455ae-4ff4-4b53-b8fe-70c3a357213e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d102334a-241d-4a1f-9049-20597b6d20af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4114ecb3-9884-416c-9164-81bde05d1f6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_arc
+		(start 1.5 -5.8)
+		(mid 0 -4.486725)
+		(end -1.5 -5.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e7cb7eb-d9fc-44d5-ac94-c45fd61d1bea")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e1ab1b3b-55b0-45cc-a878-3fe4693181b0")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "08400fb7-813d-48ca-a5bb-33ad9028a127")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "52b90987-9388-49ed-8061-21c921847f98")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 1.410685 -1.941641)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "36584320-37aa-4f4b-8ad9-04a1fdee560e")
+	)
+	(pad "2" thru_hole circle
+		(at 2.282536 0.741641)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9be964e0-d276-4175-a2f5-1a8262c5ffe0")
+	)
+	(pad "3" thru_hole circle
+		(at 0 2.4)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5182c153-0e52-4b1d-8b3c-43de346bbf85")
+	)
+	(pad "4" thru_hole circle
+		(at -2.282536 0.741641)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b48af40-29a9-4154-a16d-a4a7e0a77dcc")
+	)
+	(pad "5" thru_hole circle
+		(at -1.410685 -1.941641)
+		(size 2.5 2.5)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71972f5b-8bef-414e-83ae-d44f953cc914")
+	)
+	(embedded_fonts no)
+	(model "C:/repos/kicad-libs/liebler_CONN.pretty/GX12-5P v2.step"
+		(offset
+			(xyz 0 0 10.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

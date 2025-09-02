@@ -1,0 +1,138 @@
+(footprint "Hohlstecker_vertikal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a78f5964-74ae-49c5-b5f0-f6efab1c7f93")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Hohlstecker_vertikal"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "7c984b83-9789-4dc6-ba57-646400dc2617")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30016a76-916f-455a-aedc-3304cb26f9dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "611fe068-ea64-4e29-8d67-2a0e65fe46af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -4.5 -4.5)
+		(end 4.5 6.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "314c29c8-a31c-47c7-bef3-b420e76e4fb4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "48356bc8-1f87-4f9e-8b4b-c33d9a128c0e")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -1.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "f7ad3ae6-9536-409d-ad64-76e30b01b03b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f10a84cf-46ed-4eb0-ad74-dcc3b233b2e9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -3.5 0)
+		(size 2 4.5)
+		(drill oval 0.8 3.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "987505b8-4deb-4349-ac9c-3a6b7e9f8671")
+	)
+	(pad "2" thru_hole oval
+		(at -1.2 5.3 90)
+		(size 2 4)
+		(drill oval 0.6 2.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dda03916-3f94-4418-9cca-6186e54c7782")
+	)
+	(pad "3" thru_hole oval
+		(at 2.5 2.8 90)
+		(size 2 4.2)
+		(drill oval 0.6 2.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51a29ae1-5036-407c-bda1-e97687d2a61f")
+	)
+	(embedded_fonts no)
+	(model "C:/repos/kicad-libs/liebler_CONN.pretty/HohlbuchseVertikal.stp"
+		(offset
+			(xyz 0 -1.1 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
