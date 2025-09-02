@@ -1,0 +1,131 @@
+(footprint "FAN2507"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8b81e8f0-0713-4bbb-a2aa-5e7b45377db1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FAN2507"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "57663b15-d417-4456-a90f-fc1a8ce86fe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2a493937-4ecb-439a-9993-10f37e4c4843")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6da6aa45-7cf6-400c-adbd-3661fb5b22bb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -12.5 -12.5)
+		(end 12.5 12.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f2e1fd83-8efb-4131-9455-cc0caabf617b")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 -12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "29a39fa1-4d8e-401b-a4c9-8c2277a16c9a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "71c7c58a-4f03-4fcd-9bad-aea785c28684")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -10 -10)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "589af25a-a131-4555-8afa-18a707e7d7ed")
+	)
+	(pad "" np_thru_hole circle
+		(at -10 10)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f4597f40-0fc9-492a-8cc1-17e6a69b32a4")
+	)
+	(pad "" np_thru_hole circle
+		(at 10 -10)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "1e0e1405-16f9-4164-bd2e-f6d256a8f946")
+	)
+	(pad "" np_thru_hole circle
+		(at 10 10)
+		(size 2.8 2.8)
+		(drill 2.8)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "751eb0e7-e9ce-4fae-8c67-ebdf858f17a0")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/25x25x10_fan.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

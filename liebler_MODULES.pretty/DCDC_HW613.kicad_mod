@@ -1,0 +1,229 @@
+(footprint "DCDC_HW613"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "<b>DC/DC Adjustable Step-Down Regulator</b> based on <b>MP2315</b> chip")
+	(property "Reference" "U7"
+		(at 3.33375 -12.065 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "f2a65bde-17d9-4b30-838d-e87e38010c1a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DCDC_HW613"
+		(at 11.36675 -8.98675 0)
+		(layer "F.SilkS")
+		(uuid "1f76e1ea-9b3c-4053-9d0b-4fe2b1f62f59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2c5b4e66-0df1-4423-bce5-60ab7fb7fea9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c9d061c4-9c73-41ef-8b12-c4372694052e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MF" "Not Specified"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f5b69212-1d48-4ec3-aa61-2869be338ed5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description_1" "RES 13M OHM 2% 1/2W AXIAL"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "559ced49-d246-46cd-862b-9e988988d491")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a1475aca-0291-4123-8af9-db862537ac06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "None"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "83e41875-81bd-4c7a-bfc8-17d85f6901bd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "SnapEDA_Link" "https://www.snapeda.com/parts/HW613/CIF/view-part/?ref=snap"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6b510fc2-bd02-419c-9c19-1ecad249c427")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MP" "HW613"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "02dbf40a-331f-4a10-9d78-2707beafdbd4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Availability" "Not in stock"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "320638be-b171-43e9-9133-b830cf6cb83f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Check_prices" "https://www.snapeda.com/parts/HW613/CIF/view-part/?ref=eda"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bb04e26a-5a3c-4f5f-94a3-dfaa28773af4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.651 -5.588)
+		(end 18.542 5.588)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "12cfdb37-df0f-4aef-8ef5-1d252fec3954")
+	)
+	(fp_rect
+		(start -1.651 -5.588)
+		(end 18.542 5.588)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a604f654-6561-4ed6-bb26-e32ab7d9d400")
+	)
+	(pad "EN" thru_hole rect
+		(at 0 -3.81)
+		(size 1.9304 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d562315a-0d86-44b0-b74a-1acb8eadafbd")
+	)
+	(pad "GND" thru_hole rect
+		(at 0 1.27)
+		(size 1.9304 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d3f7d331-e6b0-4ac7-a04f-adf15d054d37")
+	)
+	(pad "IN+" thru_hole rect
+		(at 0 -1.27)
+		(size 1.9304 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "660fb11f-406d-429f-947a-a4023c1eb9f2")
+	)
+	(pad "VO+" thru_hole rect
+		(at 0 3.81)
+		(size 1.9304 1.6)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9f53784f-0f09-4a82-9317-da79b8d3f554")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MODULES.pretty/05KJ_Mini_PCB_Regulator_With_Pin_Assem_.STEP"
+		(offset
+			(xyz 23 8 -6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)

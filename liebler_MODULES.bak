@@ -2537,7 +2537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IM69D120-DS-v01_00-EN.pdf?fileId=5546d462602a9dc801607a0e41a01a2b"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2546,7 +2546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "High performance digital XENSIV MEMS microphone, -26 dBFS Sensitivity, LLGA-5"
+		(property "Description" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -2620,7 +2620,7 @@
 						)
 					)
 				)
-				(number "2"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2638,7 +2638,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2646,10 +2646,11 @@
 					)
 				)
 			)
-			(pin input line
-				(at 10.16 2.54 180)
+			(pin power_in line
+				(at 0 -7.62 90)
 				(length 2.54)
-				(name "SELECT"
+				(hide yes)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2664,28 +2665,10 @@
 					)
 				)
 			)
-			(pin input line
+			(pin output line
 				(at 10.16 0 180)
 				(length 2.54)
-				(name "CLOCK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 10.16 -2.54 180)
-				(length 2.54)
-				(name "DATA"
+				(name "OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
