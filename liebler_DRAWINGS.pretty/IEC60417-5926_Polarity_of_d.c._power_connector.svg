@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 295 106" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g transform="matrix(1,0,0,1,-20.5498,-114.371)">
+        <g>
+            <g transform="matrix(0,-4.16667,-4.16667,0,168.221,135.507)">
+                <path d="M-7.59,-7.59C-6.73,-7.59 -5.904,-7.446 -5.134,-7.183C-2.148,-6.161 0.001,-3.329 0.001,0C0.001,4.19 -3.401,7.59 -7.59,7.59C-11.779,7.59 -15.18,4.19 -15.18,0C-15.18,-3.286 -13.087,-6.088 -10.161,-7.142C-9.358,-7.432 -8.492,-7.59 -7.59,-7.59" style="fill:none;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(4.16667,0,0,4.16667,186.09,167.134)">
+                <clipPath id="_clip1">
+                    <path d="M1.44,2.5L5.216,2.5L5.216,-2.5L1.44,-2.5L1.44,2.5Z"/>
+                </clipPath>
+                <g clip-path="url(#_clip1)">
+                    <g transform="matrix(0.24,-0,-0,0.24,-39.7296,-12.6631)">
+                        <use xlink:href="#_Image2" x="174.447" y="42.685" width="15.733px" height="20.833px" transform="matrix(0.983333,0,0,0.992063,0,0)"/>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(4.16667,0,0,4.16667,179.961,167.134)">
+                <path d="M0,0L11.67,0" style="fill:none;fill-rule:nonzero;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(0,-4.16667,-4.16667,0,168.219,151.484)">
+                <path d="M-3.756,-3.756C-5.83,-3.756 -7.512,-2.074 -7.512,0C-7.512,2.074 -5.83,3.756 -3.756,3.756C-1.683,3.756 0,2.074 0,0C0,-2.074 -1.683,-3.756 -3.756,-3.756" style="fill:rgb(35,31,32);fill-rule:nonzero;"/>
+            </g>
+            <g transform="matrix(4.16667,0,0,4.16667,107.019,167.134)">
+                <path d="M0,0L6.642,0" style="fill:none;fill-rule:nonzero;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(-2.94628,-2.94628,-2.94628,2.94628,98.4704,141.972)">
+                <rect x="-6.038" y="2.501" width="12.077" height="12.077" style="fill:none;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(-2.94628,-2.94628,-2.94628,2.94628,287.734,141.971)">
+                <rect x="-6.039" y="2.501" width="12.077" height="12.077" style="fill:none;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(4.16667,0,0,4.16667,56.5065,167.134)">
+                <path d="M0,0L8.065,0" style="fill:none;fill-rule:nonzero;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(4.16667,0,0,4.16667,245.777,167.134)">
+                <path d="M0,0L8.065,0" style="fill:none;fill-rule:nonzero;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+            <g transform="matrix(0,4.16667,4.16667,0,279.382,167.134)">
+                <path d="M-4.033,-4.033L4.033,-4.033" style="fill:none;fill-rule:nonzero;stroke:rgb(35,31,32);stroke-width:2px;"/>
+            </g>
+        </g>
+    </g>
+    <defs>
+        <image id="_Image2" width="16px" height="21px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAVCAYAAABPPm7SAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAH0lEQVQ4jWP8////fwYKABMlmkcNGDVg1IBRA4aZAQCrPwQmdSWIWQAAAABJRU5ErkJggg=="/>
+    </defs>
+</svg>

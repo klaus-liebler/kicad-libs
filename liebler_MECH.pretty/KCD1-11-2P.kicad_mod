@@ -1,0 +1,132 @@
+(footprint "KCD1-11-2P"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.2 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7e9f1bd7-c696-460b-8282-7a5223be20a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "KCD1-11-2P"
+		(at -0.2 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "15dbbcc3-1c4f-4d67-8a40-f96c50fa4204")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "828b06b5-5c46-479f-b8da-a6c0a4aab8e1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2330f301-8980-41ad-87c8-c91bcb1bbd97")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5.3 -7.5)
+		(end 5.3 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cdfe8f83-2416-4503-b7c9-a622fd379a5a")
+	)
+	(fp_rect
+		(start -4.5 -7)
+		(end 4.5 7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c9c217d6-7868-49ae-8311-041a55c36cb3")
+	)
+	(fp_rect
+		(start -4.5 -7)
+		(end 4.5 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c41e7ed5-6829-4259-8959-84be488cb2af")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 5.7 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "09c861d8-1962-432b-9740-4147b812e531")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -5)
+		(size 6.5 2)
+		(drill oval 5.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "f5406029-4e4b-4903-93b6-17cda5da3f68")
+	)
+	(pad "2" thru_hole roundrect
+		(at 0 0)
+		(size 6.5 2)
+		(drill oval 5.2 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "189c1005-4d47-4de0-a3a0-3fb95fdc368d")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/KCD1-11-2P.step"
+		(offset
+			(xyz 0 0 9.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 90)
+		)
+	)
+)
