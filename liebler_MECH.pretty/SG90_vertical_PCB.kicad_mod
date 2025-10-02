@@ -1,0 +1,125 @@
+(footprint "SG90_vertical_PCB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "41580661-1dec-4176-beb6-61d8d393ed39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SG90_vertical_PCB"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "ecd9f52a-c86c-4cb3-9a99-2d69e9435305")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "be8c23a1-9a02-443d-baf2-91edab24be52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "933f00e3-0ed8-4cbd-b8e5-b0aff526b5af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -10.7 -7)
+		(end -5.7 -5.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "0990e475-a477-4d9c-9442-c9f557310311")
+	)
+	(fp_rect
+		(start -10.7 5.6)
+		(end -5.7 7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "27e87dcb-c744-4915-937d-0b86b8427f81")
+	)
+	(fp_rect
+		(start -1.4 -6.2)
+		(end 1.4 6.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "25c5c4c1-38ec-47d0-acfe-e592771bafd9")
+	)
+	(fp_rect
+		(start -18.9 -6.2)
+		(end 9.1 6.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "B.CrtYd")
+		(uuid "c11c00e6-6251-4248-89b7-ce54e484b8f3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a546c558-677c-4557-80fb-5c7a1afd80ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/SG90 Mini Servo.STEP"
+		(offset
+			(xyz -23.3 -28 -19.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 90 -0)
+		)
+	)
+)
