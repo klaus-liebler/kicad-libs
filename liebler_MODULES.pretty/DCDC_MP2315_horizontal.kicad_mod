@@ -1,0 +1,162 @@
+(footprint "DCDC_MP2315_horizontal"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Through hole angled pin header, 1x04, 2.54mm pitch, 6mm pin length, single row")
+	(tags "Through hole angled pin header THT 1x04 2.54mm single row")
+	(property "Reference" "REF**"
+		(at 4.385 -6.08 0)
+		(layer "F.SilkS")
+		(uuid "216014c9-0d9f-4547-832b-8ca9f31771f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "DCDC_MP2315_horizontal"
+		(at 4.385 9.89 0)
+		(layer "F.Fab")
+		(uuid "ffe859f7-ed93-4db5-9e10-de6e3212b91e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1104c3b-1b07-4beb-98e6-ade47cb7869e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c24bb9c3-43ec-434d-a47b-59edea02e432")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.5 -5.5)
+		(end 18.5 5.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "861f2631-4565-43e8-b057-4d3c8da57d7c")
+	)
+	(fp_rect
+		(start -1.5 -5.5)
+		(end 18.5 5.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cb7a6b9d-0ec2-4bbb-abd0-db0a2878cc16")
+	)
+	(fp_line
+		(start -0.32 -4.13)
+		(end -0.32 -3.49)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b35370e0-2854-427d-adf0-9e9666212224")
+	)
+	(fp_line
+		(start -0.32 -1.59)
+		(end -0.32 -0.95)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7caab6f7-77f6-4b59-a4e6-45b426efda8b")
+	)
+	(fp_line
+		(start -0.32 0.95)
+		(end -0.32 1.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "fb3d2791-9060-410f-9129-9500cc27f616")
+	)
+	(fp_line
+		(start -0.32 3.49)
+		(end -0.32 4.13)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "092b6754-4e30-4eb0-9b6f-912cdbe73901")
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 -3.81)
+		(size 2 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "7bb4d01a-3af6-4c34-91d4-e28426eb426e")
+	)
+	(pad "2" thru_hole oval
+		(at 0 -1.27)
+		(size 2 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "16d336f2-932b-4f50-848a-01c3f91aff00")
+	)
+	(pad "3" thru_hole oval
+		(at 0 1.27)
+		(size 2 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c8e89fe1-b830-4292-8831-6d18c6d1f483")
+	)
+	(pad "4" thru_hole oval
+		(at 0 3.81)
+		(size 2 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6adc20d3-93c0-4920-a987-d46d179ca649")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MODULES.pretty/05KJ_Mini_PCB_Regulator_With_Pin_Assem_.STEP"
+		(offset
+			(xyz 23 8 -6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 90)
+		)
+	)
+)
