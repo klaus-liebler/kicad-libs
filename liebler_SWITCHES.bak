@@ -176,7 +176,7 @@
     (property "Value" "Rotary_Encoder_Switch_with_Mountingpoint" (at 0 -3.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "liebler_MECH:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm" (at -3.81 10.16 0)
+    (property "Footprint" "liebler_MECH:Mitsumi_SIQ-02FVS3" (at -3.81 10.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 0 6.604 0)
