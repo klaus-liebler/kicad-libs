@@ -1,0 +1,222 @@
+(footprint "LTC3780"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -35.4 -20 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "8cdf242c-38dd-481e-b376-ebf50ff2d62a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "LTC3780"
+		(at 0 -1.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4642cebc-ddbe-444e-81fe-a9a7836c7885")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f71673b-46af-4881-a081-13bfcb5cc3d4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "28d64624-593b-4626-b1eb-a516785bacf4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -38.4 -20)
+		(end -38.4 20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b2b7112-dced-42fb-bdda-c859274ee3a4")
+	)
+	(fp_line
+		(start -35.9 22.5)
+		(end 36.1 22.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dea4d886-34c5-40af-b87c-efd4238b55ac")
+	)
+	(fp_line
+		(start 36.1 -22.5)
+		(end -35.9 -22.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12c8a15c-a60b-432c-a085-1e91d6037c5e")
+	)
+	(fp_line
+		(start 38.6 20)
+		(end 38.6 -20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6989c05c-4950-4bd8-a10c-317f8e9299df")
+	)
+	(fp_arc
+		(start -38.4 -20)
+		(mid -37.667767 -21.767767)
+		(end -35.9 -22.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9bd319a1-6829-415c-b85b-aecab40dbfd5")
+	)
+	(fp_arc
+		(start -35.9 22.5)
+		(mid -37.667767 21.767767)
+		(end -38.4 20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd691ae1-b56e-4979-85f8-95ab92701669")
+	)
+	(fp_arc
+		(start 36.1 -22.5)
+		(mid 37.867767 -21.767767)
+		(end 38.6 -20)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "532fecf6-25ed-43fa-8095-a16bc94ad591")
+	)
+	(fp_arc
+		(start 38.6 20)
+		(mid 37.867767 21.767767)
+		(end 36.1 22.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f91887cd-3e43-415b-9432-7cefe01162ac")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 1.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2c76a3e8-7db6-488e-a276-665dc0eb8dae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -35.4 -19.5)
+		(size 6 6)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f2d7a88c-76cc-445f-991c-06638c28b74e")
+	)
+	(pad "" np_thru_hole circle
+		(at -35.4 19.5)
+		(size 6 6)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "0e393cc2-a838-4554-a71a-3553d2f827ee")
+	)
+	(pad "" np_thru_hole circle
+		(at 35.6 -19.5)
+		(size 6 6)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "d171c2cc-e0bb-4eb7-8e87-395b7cc93fc1")
+	)
+	(pad "" np_thru_hole circle
+		(at 35.6 19.5)
+		(size 6 6)
+		(drill 3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "6e14c113-230b-4c19-af28-f959e925acdb")
+	)
+	(pad "1" thru_hole circle
+		(at -35.04 8.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dd1940de-2d4e-42d2-bb64-3880c31f620b")
+	)
+	(pad "2" thru_hole circle
+		(at -35.04 13.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f6b2d02a-e0e8-47c1-9f2e-193e1bc0df94")
+	)
+	(pad "3" thru_hole circle
+		(at 35.24 13.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b4a05168-1580-4e9f-ba84-b676f763ddf7")
+	)
+	(pad "4" thru_hole circle
+		(at 35.24 8.5)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "65ec40a6-b46c-45b3-9489-4149dbcf632c")
+	)
+	(group ""
+		(uuid "27a59738-5150-46db-955f-f0b1d878fa70")
+		(members "12c8a15c-a60b-432c-a085-1e91d6037c5e" "532fecf6-25ed-43fa-8095-a16bc94ad591"
+			"6989c05c-4950-4bd8-a10c-317f8e9299df" "6b2b7112-dced-42fb-bdda-c859274ee3a4"
+			"9bd319a1-6829-415c-b85b-aecab40dbfd5" "cd691ae1-b56e-4979-85f8-95ab92701669"
+			"dea4d886-34c5-40af-b87c-efd4238b55ac" "f91887cd-3e43-415b-9432-7cefe01162ac"
+		)
+	)
+	(embedded_fonts no)
+)

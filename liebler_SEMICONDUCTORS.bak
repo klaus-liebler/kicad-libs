@@ -815,7 +815,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "AS5600"
 			(at 0 0 0)
 			(effects
 				(font
