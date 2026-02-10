@@ -1,0 +1,191 @@
+(footprint "DCDC_MT3608"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "066a8824-a5e1-4519-8a2b-f538aa934e39")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DCDC_MT3608"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "263a9553-cf28-4ce2-a08e-0b2b7bfc16e2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c242e3bb-617e-49cf-94aa-14f5a41a0b3e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d9b9b1c-4df0-4918-bc6d-951e33aae6ab")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -18.5 -8.75)
+		(end 18.5 8.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e2fab493-56cd-41ea-91e1-649814c2f1d5")
+	)
+	(fp_rect
+		(start -18.5 -8.75)
+		(end 18.5 8.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "5b63d793-33ea-4215-98d6-d6db43e6a8c8")
+	)
+	(fp_text user "Vi-"
+		(at 13.75 3.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1fb18857-dd0d-4a9b-8cc8-58fe42c13b75")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "Vo+"
+		(at -13.75 -3.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "585a0c04-2978-4ff6-8d1d-85a1a6cc4553")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "Vo-"
+		(at -13.75 3.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "69760cc7-c560-4eb1-913c-7c0afc8c23bc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left)
+		)
+	)
+	(fp_text user "Vi+"
+		(at 13.75 -3.25 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a8e5aead-7019-43b6-9f30-e8428833c89d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8fcb328f-a054-4fca-bb94-ff2f0a507c50")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 15.25 -3.5)
+		(size 3 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "610aba7f-9c4c-4f1c-b603-399e53e773fa")
+	)
+	(pad "2" thru_hole roundrect
+		(at 15.25 3.5)
+		(size 3 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "fb0828dd-db82-413f-ba8f-99db19a6c0a1")
+	)
+	(pad "3" thru_hole roundrect
+		(at -15.25 3.5)
+		(size 3 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "5f60029b-cd2b-4b4e-8048-96b7a0294c87")
+	)
+	(pad "4" thru_hole roundrect
+		(at -15.25 -3.5)
+		(size 3 2)
+		(drill 1.1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.15)
+		(uuid "167fb205-a2df-407e-8d68-6e4a9f840c32")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MODULES.pretty/MT3608 v3.step"
+		(offset
+			(xyz -18.5 8.6 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)
