@@ -1,0 +1,195 @@
+(footprint "MiniMicroLimitSwitch"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7463a2e7-7216-414f-8bbf-a841094f73e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "MiniMicroLimitSwitch"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "afaa22f4-690f-43d4-8851-1edc65828846")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0ba64a8a-3465-444b-b5d7-774ea39e9ebd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00288be2-d2e2-4132-8238-ce6536ecda7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.6 0.9)
+		(end -1.6 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f8e7fe82-9ff0-4ea0-aa7c-72413c0c360e")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end -1.6 -0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8b22750d-844b-4d90-b25e-aafb6d90b00a")
+	)
+	(fp_line
+		(start -1 -1.5)
+		(end 7 -1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1419bf08-c1f9-4bcb-9dd3-f6a647cc7a35")
+	)
+	(fp_line
+		(start -1 1.5)
+		(end -1.6 0.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3fa031b4-d5e9-483c-8b0b-4782886553f7")
+	)
+	(fp_line
+		(start -1 4.5)
+		(end -1 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "925186d3-b92f-436b-8c7a-debbdeedb0fd")
+	)
+	(fp_line
+		(start 7 -1.5)
+		(end 7 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f14b097f-c4b1-4b9d-9147-eef293b33bf8")
+	)
+	(fp_line
+		(start 7 4.5)
+		(end -1 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aea824f2-b3fd-4a17-84d2-d788246676be")
+	)
+	(fp_rect
+		(start 4.8 3.3)
+		(end 6.8 4.3)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "10a5fa57-c709-4c4c-b661-be9d0d84a949")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.1 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "9fa95c30-13b9-4e1b-8d61-210ef7a775e5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "1e1b7452-9c19-4a86-a50b-aa1cafbd2af2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at 5.5 7.5)
+		(size 1.6 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "65b072b2-6ecc-4591-b73a-d5f34113b437")
+	)
+	(pad "2" smd roundrect
+		(at 3 7.5)
+		(size 1.6 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e892a38c-b13a-4e7f-b296-ed1ab02c3fe9")
+	)
+	(pad "3" smd roundrect
+		(at 0.5 7.5)
+		(size 1.6 4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "02a7850b-ac3e-49b8-bb1b-fc60fa41c5f6")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/MiniMicroLimitSwitch.step"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 -0 -0)
+		)
+	)
+)
