@@ -1,0 +1,216 @@
+(footprint "Omron D2F Right Angled"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 4.45 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "05f13cb5-674e-43ee-a241-a8a73a03e771")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Omron D2F Right Angled"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b7f755f4-ba83-452e-a615-9a3eae18c6d9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4618a8b8-7b13-4f90-8bc1-f9ef37bb19c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0074a6e0-502b-4cdc-9178-2ad031e7f329")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 6.4 -11.5)
+		(end 3.3 -11.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3e6b78aa-b1a7-4d1b-86ba-a8e5085c8fa0")
+	)
+	(fp_line
+		(start 6.4 -6.75)
+		(end 3.3 -6.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "12282093-d976-468b-b193-fe0d8ea53d33")
+	)
+	(fp_rect
+		(start -6.4 -6.6)
+		(end 6.4 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "2798405f-d723-40b2-bd6d-9826063d8a12")
+	)
+	(fp_circle
+		(center -3.25 -1.5)
+		(end -3.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "43129516-1520-42fd-adbc-1eced1db8c28")
+	)
+	(fp_circle
+		(center 3.25 -1.5)
+		(end 3.25 -2.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a8a8e533-5795-4181-aeab-c4c37b04606f")
+	)
+	(fp_circle
+		(center -3.25 -1.5)
+		(end -3.25 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "a56c964c-a7c4-4e2c-a78c-80723a474b1e")
+	)
+	(fp_circle
+		(center 3.25 -1.5)
+		(end 3.25 -2.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "be396826-23c5-4a8c-833e-476268714377")
+	)
+	(fp_text user "C"
+		(at -5.3 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "584bbcdd-eaa1-48e6-9185-b655c3125b32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "NO"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7b11f35a-6b3d-4eb6-a4a8-08feb44a36a4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "NC"
+		(at 5.3 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "c8ffb562-bfcb-453c-9a0b-f3bb92466437")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "dbfb507b-615b-4c1d-8af9-be4c59ddd0e4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at -5.1 2.8)
+		(size 1.6 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "98d85b3d-f0e9-414d-9160-4910498804b3")
+	)
+	(pad "2" thru_hole oval
+		(at 0 2.8)
+		(size 1.6 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "96b33d09-9104-49bc-aa5f-78c09b976fab")
+	)
+	(pad "3" thru_hole oval
+		(at 5.08 2.8)
+		(size 1.6 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7ebd5aa6-2235-4f2f-b165-1160ba6a92e7")
+	)
+	(embedded_fonts no)
+	(model "${CUSTOM_LIBS}/liebler_MECH.pretty/D2F-L_Right_Angled.STEP"
+		(offset
+			(xyz -6.4 0 5.8)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
