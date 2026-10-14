@@ -4613,7 +4613,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "IN1"
+		(property "Reference" "X?"
 			(at 17.78 10.16 0)
 			(effects
 				(font
